@@ -1,0 +1,90 @@
+* {
+    color: rgb(95, 158, 160);
+    box-sizing: border-box;
+}
+
+.frame,
+.screen input,
+.keys button
+{
+    border: 3px solid rgb(95, 158, 160);
+
+}
+
+.logo,
+.bat {
+    background-color: rgb(95, 158, 160);
+}
+
+.frame {
+    width: 260px;
+    border-radius: 10px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.logo {
+    text-align: right;
+    line-height: 2;
+    color: white;
+    margin: 10px 0;
+    padding-right: 10px;
+    font-weight: bold;
+}
+
+.screen {
+    padding: 0 5px;
+    margin: 8px 0 ;
+}
+.screen input {
+    width: 100%;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: right;
+    line-height: 1.4;
+    padding-top: 10px;
+    padding-right: 2px;
+    text-transform: uppercase;
+}
+
+.bat {
+    width: 85px;
+    height: 30px;
+    position: relative;
+    left: 161px;
+    margin: 8px 0;
+}
+
+.keys {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding: 8px 8px;
+    align-content: space-around;
+    height: 260px;
+}
+
+.keys button {
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+    padding: 0;
+    background-color: white;
+    font-size: 20px;
+    font-weight: bold;
+    outline: none;
+
+}
+
+.keys button:hover {
+    border-width: 5px;
+}
+
+
+.keys button:active {
+    border: 3px solid rgb(95, 158, 160);;
+    background:  rgb(95, 158, 160);
+    color: white;
+}
+
